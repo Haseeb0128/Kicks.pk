@@ -1,0 +1,23 @@
+#flexRadioDefault1{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+#flexRadioDefault2{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+}
+
+
+#flexRadioDefault3{
+    background-color: gray;
+    width: 25px;
+    height: 25px;
+}
+
+.cardimage{
+    background-color: wheat;
+}
+

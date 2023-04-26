@@ -1,0 +1,151 @@
+<link rel="stylesheet" href="navbar.css">
+<script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
+<script src="https://kit.fontawesome.com/98ae1596ad.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+<link rel="stylesheet" href="font-awesome.css">
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="home.html">Kicks.pk</a>
+    <div class="d-flex gap-3">
+      <div class="d-flex gap-3 d-sm-none d-md-flex d-lg-none">
+        <div class="py-1">
+          <img src="./icons/user.svg" alt="user-icon" width="30px" height="30px">
+        </div>
+        <div class="py-1">
+          <a href="cart.html"><img src="./icons/cart.svg" alt="user-icon" width="30px" height="30px"></a>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Product
+          </a>
+          <ul class="dropdown-menu mega-menu mt-3" id="mega-menu">
+            <div class="row p-2">
+              <div class="col-md-4">
+                <li>
+                  <h6 class="dropdown-header ">Men's</h6>
+                </li>
+                <li><a href="mens-plimsoll.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image.jpg')">Plimsoll
+                    Sneakers</a>
+                </li>
+                <li><a href="mens-dress-sneakers.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image1.jpg')">Dress and Smart
+                    Sneakers</a></li>
+                <li><a href="mens-hightop.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image2.jpg')">High Top
+                    Sneakers</a>
+                </li>
+                <li><a href="mens-lowtop.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image3.jpg')">Low Top
+                    Sneakers</a>
+                </li>
+                <li><a href="mens-slip-on.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image4.jpg')">Slip-on
+                    Sneakers</a>
+                </li>
+                <li><a href="mens-retro-sport.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image5.jpg')">Retro Sport
+                    Shoes</a>
+                </li>
+                <li><a href="mens-skate.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image6.webp')">Skate Shoes</a>
+                </li>
+                <li><a href="mens-sock.html" class="nav-link px-4"
+                    onmouseenter="changeImage('./images/image7.jpg')">Sock Sneakers</a>
+                </li>
+              </div>
+              <div class="col-md-4">
+                <div>
+                  <li>
+                    <h6 class="dropdown-header ">Women's</h6>
+                  </li>
+                  <li><a href="womens-plimsoll.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image8.jpg')">Plimsoll
+                      Sneakers</a>
+                  </li>
+                  <li><a href="womens-dress-sneakers.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image9.png')">Dress and Smart
+                      Sneakers</a></li>
+                  <li><a href="womens-hightop.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image10.jpg')">High Top
+                      Sneakers</a>
+                  </li>
+                  <li><a href="womens-lowtop.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image11.jpg')">Low Top
+                      Sneakers</a>
+                  </li>
+                  <li><a href="womens-slip-on.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image12.jpg')">Slip-on
+                      Sneakers</a>
+                  </li>
+                  <li><a href="womens-retro-sport.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image13.jpeg')">Retro Sport
+                      Shoes</a>
+                  </li>
+                  <li><a href="womens-skate.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image14.jpg')">Skate Shoes</a>
+                  </li>
+                  <li><a href="womens-sock.html" class="nav-link px-4"
+                      onmouseenter="changeImage('./images/image15.webp')">Sock Sneakers</a>
+                  </li>
+                </div>
+                <div class="mt-2">
+                  <li>
+                    <h6 class="dropdown-header ">Kids</h6>
+                  </li>
+                  <li><a href="" class="nav-link px-4" onmouseenter="changeImage('./images/image16.png')">High Top
+                      Sneakers</a>
+                  </li>
+                  <li><a href="" class="nav-link px-4" onmouseenter="changeImage('./images/image17.png')">Low Top
+                      Sneakers</a>
+                  </li>
+                  <li><a href="" class="nav-link px-4" onmouseenter="changeImage('./images/image18.jpeg')">Slip-on
+                      Sneakers</a>
+                  </li>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="./images/image.jpg" alt="megamenu-image" class="img-fluid rounded-5" id="slider">
+              </div>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="about_us.html" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact_us.html" class="nav-link">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex m-0" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+      <div class="d-flex d-none d-sm-flex d-md-none d-lg-flex" id="icons">
+        <div class="p-1 mx-2">
+          <img src="./icons/user.svg" alt="user-icon" width="30px" height="30px">
+        </div>
+        <div class="p-1 mx-2">
+          <a href="cart.html"><img src="./icons/cart.svg" alt="user-icon" width="30px" height="30px"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- <script>
+  function changeImage(anything) {
+    document.getElementById('slider').src = anything;
+  }
+</script> -->

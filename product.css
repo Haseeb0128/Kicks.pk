@@ -1,0 +1,15 @@
+.cardimage{
+    background-color: wheat;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner a img{
+    transition: all 0.5s ease;
+}
+
+.inner:hover a img{
+    transform: scale(1.1);
+}

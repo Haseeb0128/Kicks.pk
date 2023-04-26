@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+}
+.banner{
+    border: 2px solid black;
+    height: 500px;
+}
+
+.hot_deals{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot_deals h1{
+    font-family: "Gill Sans", sans-serif;
+    margin-bottom: 25px;
+}
+
+.hot_deals_container{
+    border: 2px solid black;
+    display: flex;
+    width: 1280px;
+    gap: 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+.box{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+}
+
+.banner_container{
+    background-color: wheat;
+}
+
+.bannerbox1{
+    flex-basis: 50%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bannerbox2{
+    flex-basis: 50%;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.bannerbox1 div h1{
+    font-size: 55px;
+    font-weight: 750;
+}
+
+.cardimage{
+    background-color: wheat;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner a img{
+    transition: all 0.5s ease;
+}
+
+.inner:hover a img{
+    transform: scale(1.1);
+}
