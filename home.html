@@ -16,7 +16,7 @@
   <div w3-include-html="navbar.html"></div>
   <!-- Banner -->
   <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel"
-    data-bs-interval="2000" data-bs-pause="hover">
+    data-bs-interval="2000" data-bs-pause="hover" style="cursor: pointer;">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="banner_container">
@@ -88,56 +88,96 @@
     </button>
   </div>
   <!-- Hot Products Section -->
-  <div class="container px-4">
-    <div class="d-flex flex-column">
-      <div>
-        <h1 class="my-5">Hot Products</h1>
-        <div class="row gy-3">
-          <div class="col-lg-3 col-md-6 col-6">
-            <!-- Card1 -->
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/airforce1.png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Nike Air Force 1</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+  <div class="container p-1">
+    <h1 class="my-5">Hot Products</h1>
+    <div class="row gx-1 gy-3">
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner">
+            <div class="onsale">
+              <span class="badge rounded-0"><i class="fa-sharp fa-solid fa-arrow-down"
+                  style="color: white;"></i>50%</span>
+            </div>
+            <a href="single_product.html"><img class="card-img-top" src="./home images/airforce1.png"
+                alt="Card image cap"></a>
+          </div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Nike Air Force 1</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0"><del>$100</del>$50</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-6">
-            <!-- Card2 -->
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/vans.png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Vans Old Skool</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner">
+            <div class="onsale">
+              <span class="badge rounded-0"><i class="fa-sharp fa-solid fa-arrow-down"
+                  style="color: white;"></i>50%</span>
+            </div>
+            <a href="single_product.html"><img class="card-img-top" src="./home images/vans.png"
+                alt="Card image cap"></a>
+          </div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Vans Old Skool</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0"><del>$100</del>$50</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-6">
-            <!-- Card3 -->
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/nike (2).png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Nike Huarache</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner">
+            <div class="onsale">
+              <span class="badge rounded-0"><i class="fa-sharp fa-solid fa-arrow-down"
+                  style="color: white;"></i>50%</span>
+            </div>
+            <a href="single_product.html"><img class="card-img-top" src="./home images/nike (2).png"
+                alt="Card image cap"></a>
+          </div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Nike Huarache</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0"><del>$100</del>$50</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-6">
-            <!-- Card4 -->
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/adidas-superstar.png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Adidas Superstar</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner">
+            <div class="onsale">
+              <span class="badge rounded-0"><i class="fa-sharp fa-solid fa-arrow-down"
+                  style="color: white;"></i>50%</span>
+            </div>
+            <a href="single_product.html"><img class="card-img-top" src="./home images/adidas-superstar.png"
+                alt="Card image cap"></a>
+          </div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Adidas Superstar</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0"><del>$100</del>$50</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
@@ -146,52 +186,74 @@
     </div>
   </div>
   <!-- Featured Products Section -->
-  <div class="container px-4">
-    <div class="d-flex flex-column">
-      <div>
-        <h1 class="my-5">Featured Products</h1>
-        <div class="row gy-3">
-          <div class="col-lg-3 col-md-6 col-6">
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/airforce1.png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Nike Air Force 1</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+  <div class="container p-1">
+    <h1 class="my-5">Featured Products</h1>
+    <div class="row gx-1 gy-3">
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner">
+            <a href="single_product.html"><img class="card-img-top" src="./home images/airforce1.png"
+                alt="Card image cap"></a>
+          </div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Nike Air Force 1</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0">$100</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-6">
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/vans.png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Vans Old Skool</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
+                src="./home images/vans.png" alt="Card image cap"></a></div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Vans Old Skool</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0">$100</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-6">
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/nike (2).png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Nike Huarache</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
+                src="./home images/nike (2).png" alt="Card image cap"></a></div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Nike Huarache</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0">$100</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-6">
-            <div class="card mb-4" style="max-width:300px;">
-              <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
-                    src="./home images/adidas-superstar.png" alt="Card image cap"></a></div>
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Adidas Superstar</h5>
-                <p>Men's Sneakers</p>
-                <p class="card-text fs-5">$100</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6 d-flex justify-content-center align-items-center">
+        <div class="card" style="max-width:270px;">
+          <div class="cardimage inner"><a href="single_product.html"><img class="card-img-top"
+                src="./home images/adidas-superstar.png" alt="Card image cap"></a></div>
+          <div class="card-body d-flex flex-column p-2">
+            <h5 class="card-title">Adidas Superstar</h5>
+            <p>Men's Sneakers</p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text fs-5 m-0">$100</p>
+              <div>
+                <button class="btn btn-dark"><i class="fa-sharp fa-solid fa-heart fa-lg"
+                    style="color:white"></i></button>
               </div>
             </div>
           </div>
@@ -200,11 +262,11 @@
     </div>
   </div>
   <!-- Reviews Section -->
-  <div class="container px-4">
+  <div class="container p-1">
     <div class="d-flex flex-column">
       <div>
         <h1 class="my-5">Reviews</h1>
-        <div class="row">
+        <div class="row px-1">
           <div class="col-lg-6 col-md-6">
             <div class="card mb-4">
               <div class="card-body">
@@ -250,7 +312,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row px-1">
           <div class="col-lg-6 col-md-6">
             <div class="card mb-4">
               <div class="card-body">

@@ -1,12 +1,15 @@
-*{
+* {
     margin: 0%;
 }
-.banner{
+
+.banner {
     border: 2px solid black;
-    height: 500px;
+    height: 600px;
 }
 
-.hot_deals{
+
+
+.hot_deals {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 25px;
@@ -16,12 +19,12 @@
     justify-content: center;
 }
 
-.hot_deals h1{
+.hot_deals h1 {
     font-family: "Gill Sans", sans-serif;
     margin-bottom: 25px;
 }
 
-.hot_deals_container{
+.hot_deals_container {
     border: 2px solid black;
     display: flex;
     width: 1280px;
@@ -30,17 +33,17 @@
     justify-items: center;
 }
 
-.box{
+.box {
     border: 2px solid black;
     width: 300px;
     height: 400px;
 }
 
-.banner_container{
+.banner_container {
     background-color: wheat;
 }
 
-.bannerbox1{
+.bannerbox1 {
     flex-basis: 50%;
     padding: 20px;
     justify-content: center;
@@ -48,7 +51,7 @@
     display: flex;
 }
 
-.bannerbox2{
+.bannerbox2 {
     flex-basis: 50%;
     padding: 20px;
     margin: auto;
@@ -56,23 +59,53 @@
     display: flex;
 }
 
-.bannerbox1 div h1{
+.bannerbox1 div h1 {
     font-size: 55px;
     font-weight: 750;
 }
 
-.cardimage{
+.cardimage {
     background-color: wheat;
 }
 
-.inner{
+.inner {
     overflow: hidden;
 }
 
-.inner a img{
+.inner a img {
     transition: all 0.5s ease;
 }
 
-.inner:hover a img{
+.inner:hover a img {
     transform: scale(1.1);
+}
+
+.card .cardimage .onsale .badge {
+    background: black;
+    font-size: 14px;
+    padding: 5px 14px;
+    top: 0px;
+    position: absolute;
+}
+
+.card .cardimage .onsale .badge:before {
+    border-width: 10px 0px 0px 10px;
+    border-color: transparent transparent transparent black;
+    content: "";
+    position: absolute;
+    right: -8px;
+    width: 0;
+    bottom: 0;
+    border-style: solid;
+}
+
+.card .cardimage .onsale .badge:after {
+    border-width: 10px 8px 0px 10px;
+    border-color: black transparent transparent;
+    content: "";
+    position: absolute;
+    right: -8px;
+    width: 0;
+    top: 0;
+    border-style: solid;
 }

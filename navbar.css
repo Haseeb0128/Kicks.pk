@@ -1,19 +1,19 @@
-.navbar{
+.navbar {
     background-color: rgb(247, 205, 127);
 }
 
-@media screen and (min-width:900px){
-    .mega-menu{
+@media screen and (min-width:900px) {
+    .mega {
         width: 900px;
         transform: translate3d(0px, 4px, 0) !important;
     }
 }
 
-#mega-menu{
+#mega-menu {
     background-color: rgb(252, 223, 168);
 }
 
-#icons{
+#icons {
     margin-left: 10px;
 }
 
