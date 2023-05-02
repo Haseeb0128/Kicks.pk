@@ -220,6 +220,13 @@
         product_total_amt.innerHTML = parseInt(product_total_amt.innerHTML) - 50;
         total_cart_amt.innerHTML = parseInt(shipping_amt.innerHTML) + parseInt(product_total_amt.innerHTML);
       }
+      const data = {
+        product_amt_total: product_total_amt.innerHTML,
+        shipping_amount: shipping_amt.innerHTML,
+        cart_amt_total: total_cart_amt.innerHTML
+      }
+
+      console.log(data);
     }
 
     const increaseQuantity = (val, price) => {
@@ -230,7 +237,17 @@
       cost.innerHTML = parseInt(cost.innerHTML) + 50;
       product_total_amt.innerHTML = parseInt(product_total_amt.innerHTML) + 50;
       total_cart_amt.innerHTML = parseInt(product_total_amt.innerHTML) + parseInt(shipping_amt.innerHTML);
+
+      const data = {
+        product_amt_total: product_total_amt.innerHTML,
+        shipping_amount: shipping_amt.innerHTML,
+        cart_amt_total: total_cart_amt.innerHTML
+      }
+
+      console.log(data);
     }
+
+
   </script>
 </body>
 
